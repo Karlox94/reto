@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  font-family: 'Roboto';
+}
+
+.header {
+  text-align: center;
+
+  &-title {
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+
+  &-subtitle {
+    font-style: italic;
+    font-weight: 400;
+    margin: 0;
+  }
+}
+
+.image-container {
+  background-image: url('https://historia.nationalgeographic.com.es/medio/2019/07/09/nikola-tesla_b0f93a52_1280x1671.jpeg');
+  background-position: center;
+  background-size: cover;;
+  height: 300px;
+  margin: 25px auto;
+  width: 500px;
+}
+
+.text-container {
+  max-width: 1040px;
+  margin: auto;
+
+  p {
+    text-align: justify;
+  }
+}
